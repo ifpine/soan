@@ -1,9 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My First Webpage</title>
+    <title>Random Subpage Button</title>
 </head>
 <body>
-    <h1>Hello, World!</h1>
+    <button style="background-color: #99FFFF;" onclick="randomSubpage()">Go to a Random Subpage</button>
+
+    <script>
+        function randomSubpage() {
+            // Array of subpages
+            var subpages = [
+                'subpage1.html',
+                'subpage2.html',
+                'subpage3.html'
+            ];
+
+            // Get a random index from the subpages array
+            var randomIndex = Math.floor(Math.random() * subpages.length);
+
+            // Get the random subpage URL
+            var randomSubpageURL = subpages[randomIndex];
+
+            // Navigate to the random subpage
+            window.location.href = randomSubpageURL;
+        }
+    </script>
 </body>
 </html>
