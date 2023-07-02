@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Instagram-Inspired Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 24px;
+            text-align: center;
+            margin-top: 0;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .quote {
+            font-style: italic;
+            color: #888;
+        }
+
+        .author {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Instagram-Inspired Webpage</h1>
+        <p>어둠이 깊은 밤, 홀로 앉아서 흰 종이 위에 펜을 가져다 대었다.<br>
+        마음 한 구석에는 끼어든 어둠이 존재하고,<br>
+        현실의 무게가 어깨를 굽히게 만들었다.</p>
+        <p>나의 소설은 현실과 꿈의 경계에서 태어났다.<br>
+        흐릿한 현실과 몽환적인 꿈의 세계가 얽혀있었고,<br>
+        내 안의 갈등과 혼돈이 이야기의 동력이 되었다.</p>
+        <p>들판을 헤매는 나그네, 그림자를 쫓는 사나이,<br>
+        세상의 가장자리에서 외로움에 힘들어하는 사람들의 이야기를 풀어냈다.<br>
+        그들은 마음 깊은 곳에서 고독과 존재의 의문을 품고 있었고,<br>
+        내 소설 속에서 그들은 소리 없는 외침을 했다.</p>
+        <p>어둠과 빛의 대립은 언제나 내 작품을 가득 채웠다.<br>
+        그 중간에서, 무언가를 찾으며 헤매는 인간들의 이야기를 그렸다.<br>
+        어둠이 그들을 향해 손을 내미고, 빛이 그들을 감싸안았다.</p>
+        <p>나의 소설은 현실과 꿈의 경계를 넘나들며,<br>
+        인간의 모순과 어둠을 바라보는 안목을 전했다.<br>
+        한편으로는 그들을 위로하고, 한편으로는 그들을 자아내었다.</p>
+        <p>나의 소설은 이 세상에 존재하지 않는 이야기일지라도,<br>
+        그 속에는 인간의 본성과 심연이 엿보이는 것 같았다.<br>
+        그리고 그것이 독자들에게 작은 위로와 깨달음을 주었다.</p>
+        <p>모든 삶은 소설과 같다.<br>
+        인간은 마치 작가처럼 자신만의 이야기를 쓴다.<br>
+        그리고 그 이야기는 한편의 소설이 되어 세상에 펼쳐진다.</p>
+        <p class="quote">"모든 순간을 사진으로 담아내세요."</p>
+        <p>- <span class="author">인스타그램</span></p>
+    </div>
+</body>
+</html>
